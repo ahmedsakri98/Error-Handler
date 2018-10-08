@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>Form</title>
+    <script type="text/javascript" src="main.js"></script>
+    <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <form novalidate>
+            <p>
+                <label for="mail">
+                    <span>Please enter an email address:</span>
+                    <input type="email" id="mail" name="mail">
+                    <span class="error" aria-live="polite"></span>
+                </label>
+            </p>
+            <button onclick="validate();">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
